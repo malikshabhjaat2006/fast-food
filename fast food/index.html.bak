@@ -1,0 +1,200 @@
+
+<html>
+<head><title> Fast food</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<style>
+.checked {
+  color:orange;
+}
+.links
+{
+border-radius:10px;
+}
+.links:hover{
+background-color:green;
+}
+
+.zoom{ 
+transition: transform 0.4s;
+}
+.zoom:hover{
+transform: scale(1.05);
+}
+a
+{
+color:white;
+text-decoration:none;
+}
+#slider{
+  overflow: hidden;
+}
+#slider figure {
+position: relative;
+width:100%;
+margin:0;
+animation: 5s slider infinite;
+}
+
+</style>
+</head>
+<body>
+
+<table border="0" height="15%" width="100%">
+<tr> 
+<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="index.html">Home</td></a>
+<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="about us.html">ABOUT US</td></a>
+<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="contact us.html">CONTACT US</td></a>
+<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="menu.html">MENU</TD></a>
+<TD width="12.5%" align="center" bgcolor="purple" class="links"><a href="varities.html">VARITIES</TD></a>
+<TD width="12.5%" align="center" bgcolor="purple" class="links"><a href="feedback.html">FEEDBACK</TD></a>
+<TD width="12.5%" align="center" bgcolor="purple" class="links"><a href="sign up.html">SIGN UP</TD></a>
+<TD width="12.5%" align="center" bgcolor="purple" class="links"><a href="login.html">LOGIN</TD></a>
+</tr>
+</TABLE width="100%">
+<div id="slider">
+   <figure>
+      <img src="banner1.jpg" height="95%" width="100%">
+	  <img src="banner3.jpg" height="95%" width="100%">
+	  <img src="banner4.jpg" height="95%" width="100%">
+	  <img src="banner5.jpg" height="95%" width="100%">
+   </figure>
+</div>
+<br>
+<H1 align="center">Top Rated Fast Foods</h1>
+
+<table border="0" width="100%">
+
+<tr>
+<td class="zoom"><img src="1.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="2.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="5.jpg" height="200px" width="380px"></td>
+
+</tr>
+<tr>
+<td align="center"> <b><font size="4">French Fries</b></font>  </td>
+<td align="center"> <b><font size="4">Burger</b></font>  </td>
+<td align="center"> <b><font size="4">Cheese Burger</b></font>  </td>
+</tr>
+
+<tr>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</td>
+
+</tr>
+
+<tr>
+<td align="center"> <font size="4" color="green">Price: INR:100/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:50/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:100/-</font>  </td>
+</tr>
+<tr>
+<td class="zoom"><img src="3.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="6.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="12.jpg" height="200px" width="380px"></td>
+
+</tr>
+<tr>
+<td align="center"> <b><font size="4">Non-Veg Burger</b></font>  </td>
+<td align="center"> <b><font size="4"> Noodles</b></font>  </td>
+<td align="center"> <b><font size="4">Veg Role</b></font>  </td>
+</tr>
+<tr>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+</td>
+</tr>
+
+<tr>
+<td align="center"> <font size="4" color="green">Price: INR:200/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:150/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:50/-</font>  </td>
+</tr>
+tr>
+<td class="zoom"><img src="8.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="9.jpg" height="200px" width="380px"></td>
+<td class="zoom"><img src="13.jpg" height="200px" width="380px"></td>
+
+</tr>
+<tr>
+<td align="center"> <b><font size="4">Sandwich</b></font>  </td>
+<td align="center"> <b><font size="4">Big lunch</b></font>  </td>
+<td align="center"> <b><font size="4">Pizza</b></font>  </td>
+</tr>
+
+<tr>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</td>
+<td align="center">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+</td>
+</tr>
+
+<tr>
+<td align="center"> <font size="4" color="green">Price: INR:100/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:300/-</font>  </td>
+<td align="center"> <font size="4" color="green">Price: INR:200/-</font>  </td>
+</tr>
+
+</table>
+
+<table border="0" width="100%" bgcolor="purple" height="13%">
+<tr>
+<td align="center"><font color="white"> Designed By- MALIK SHABH</font>
+</td>
+</tr>
+</table>
+</body>
+</html>
